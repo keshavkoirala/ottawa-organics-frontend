@@ -1,0 +1,19 @@
+.featNavContainer{
+   /* margin-top: 107px; */
+   justify-content: space-between; 
+}
+
+.featNavlist {
+   gap: 20px;
+   list-style: none;
+   font-size: 16px;
+   color: #253D4E;
+   font-weight: 600;
+}
+.featNav{
+   cursor: pointer;
+}
+
+.featNav:hover{
+   color: var(--baseGreen);
+}
