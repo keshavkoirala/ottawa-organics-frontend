@@ -1,0 +1,112 @@
+.Hero {
+   background-image: url('images/FruitsBg3.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   /* height: 477px; */
+   /* margin-top: 12px; */
+   padding-bottom: 30px;
+   align-items: center;
+}
+
+.sendEmailContainer {
+   justify-content: unset;
+   background-color: white;
+   height: 40px;
+   width: 329px;
+   padding: 27px 20px;
+   color: gray;
+   justify-content: center;
+   align-items: center;
+}
+
+.sendEmail {
+   all: unset;
+   padding: 17px 12px;
+   font-size: 16px;
+   font-weight: 500;
+   width: 100%;
+}
+
+
+
+.textArea {
+   width: 532px;
+   margin-left: 118px;
+   flex-direction: column;
+   align-items: start;
+   gap: 54px;
+}
+
+.heroTitle {
+   font-size: 55px;
+   font-weight: 700px;
+   color: var(--black);
+   letter-spacing: -1%;
+}
+
+.heroPara {
+   margin-top: 12px;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: left;
+   letter-spacing: -1%;
+   color: #838383;
+}
+
+@media (max-width: 750px) {
+   .Hero {
+      flex-direction: column;
+      margin-top: -6px;
+   }
+
+
+   .textArea:nth-child(1) {
+      order: 2;
+   }
+   
+   .textArea{
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      gap: 30px;
+   }
+   .titlePara{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+     margin-inline: auto;
+
+   }
+   /* .heroTitle{
+      margin-inline: auto;
+   } */
+
+   .heroPicture:nth-child(2) {
+      order: 1;
+      /* transform: scale(1.2); */
+      /* margin-top: 15px; */
+   }
+}
+
+@media (min-width: 751px) {
+   .Hero {
+      flex-direction: row;
+      height: auto;
+      /* Example of different layout for larger screens */
+   }
+
+   .textArea:nth-child(1) {
+      order: 1;
+      /* Change the order back on larger screens if needed */
+   }
+
+   .heroPicture:nth-child(2) {
+      order: 2;
+      /* Change the order back on larger screens if needed */
+   }
+}

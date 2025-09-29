@@ -1,0 +1,71 @@
+.navbar2 {
+   /* justify-content: space-between; */
+   /* padding: 0 15px; */
+   /* height: 60px; */
+   margin-top: 10px;
+   margin-bottom: 14px;
+   align-items: center;
+}
+
+.primaryBtn {
+   background-color: #3BB77E;
+   color: white;
+   border: none;
+   gap: 5px;
+   padding: 8px 15.5px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.primaryBtn:hover {
+   background-color: #16a34a;
+}
+
+
+.navList ul {
+   gap: 24px;
+}
+
+.navListLi {
+   font-size: 15px;
+   font-weight: 600;
+   color: var(--black);
+}
+
+.navListLi:hover {
+   font-size: 15px;
+   font-weight: 600;
+   color: var(--baseGreen);
+   cursor: pointer;
+}
+
+.navListLiActive {
+   font-size: 15px;
+   font-weight: 600;
+   color: var(--baseGreen);
+}
+
+.iconColorBaseGreen {
+   color: var(--baseGreen);
+}
+
+.iconColorBlack {
+   color: black;
+}
+
+.contactNumber {
+   gap: 5px;
+}
+
+.coloredNumber {
+   color: var(--baseGreen);
+   font-size: 17px;
+   font-weight: 500;
+}
+
+.blackNumber {
+   font-size: 15px;
+   font-weight: 500;
+   color: black;
+}
+
